@@ -12,7 +12,7 @@ app.use(cors())
 
 
 
-app.get('/', (req, res) => {
+app.get('/details', (req, res) => {
 
     try {
         
