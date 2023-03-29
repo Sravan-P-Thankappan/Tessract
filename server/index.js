@@ -14,8 +14,7 @@ app.use(cors())
 
 app.get('/details', (req, res) => {
 
-    try {
-        
+    try {      
         const data = []
         fs.createReadStream('./assets/AAPL.csv')
 
